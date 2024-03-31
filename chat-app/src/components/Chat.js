@@ -6,7 +6,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 export default function Chat() {
     return (
         <>
-            <div className="container pt-16 relative gap-6 absolute flex flex-col-reverse bottom-0 max-w-[600px] w-11/12 h-[80vh] px-3 py-2 rounded-lg m-auto">
+            <div className="container pt-[4rem] relative gap-6 absolute flex flex-col-reverse bottom-0 max-w-[600px] w-11/12 h-[80vh] px-3 pb-2 rounded-lg m-auto">
                 <BackgroundGradientAnimation />
                 {/* <GridBackground /> */}
                 <div className="title absolute rounded-t-lg flex align-center gap-3 top-0 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 bg-gray-100 text-white left-0 right-0 p-4">
